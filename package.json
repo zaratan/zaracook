@@ -18,7 +18,8 @@
     "cy:run:ci": "cypress run --browser chrome --reporter junit --reporter-options 'mochaFile=results/cypress/result.xml'",
     "test:e2e:dev": "start-server-and-test dev http://localhost:8000 cy:open",
     "test:e2e:run": "start-server-and-test develop http://localhost:8000 cy:run",
-    "test:e2e:ci": "start-server-and-test develop http://localhost:8000 cy:run:ci"
+    "test:e2e:ci": "start-server-and-test develop http://localhost:8000 cy:run:ci",
+    "now-build": "npm run build"
   },
   "dependencies": {
     "@mdx-js/mdx": "^0.16.8",

@@ -1,6 +1,6 @@
 module.exports = {
   pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
-  siteTitle: 'Zaratan@cooking', // Navigation and Site Title
+  siteTitle: 'Zaratan@cook', // Navigation and Site Title
   siteTitleAlt: "Zaratan - Cuisines d'un développeur fatigué", // Alternative Site title for SEO
   siteHeadline: 'Des Recettes et du Code.', // Headline for schema.org JSONLD
   siteTitleShort: 'Zara@cook', // short_name for manifest
@@ -14,7 +14,7 @@ module.exports = {
   userTwitter: '@zaratan', // Twitter Username
   ogSiteName: 'zaratan', // Facebook Site Name
   ogLanguage: 'fr',
-  googleAnalyticsID: '',
+  googleAnalyticsID: 'UA-44943460-5',
 
   // Manifest and Progress color
   themeColor: '#3498DB',
